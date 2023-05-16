@@ -1,0 +1,54 @@
+*{
+    font-size: 110%;
+}
+
+body{
+    background: linear-gradient(to right, red, orange);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+main{
+    border-radius: 10px;
+    padding: 5px;
+   background: linear-gradient(to bottom, lightblue, green);
+   
+}
+
+form{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid;
+    background-color: rgb(0, 0, 0, 0);
+}
+
+input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+#topic {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.end{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: aqua;
+    left: 30px
+}
+
+#foot{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}

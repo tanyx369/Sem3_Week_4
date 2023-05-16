@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Ex3.css">
+</head>
+<body style="display: flex; justify-content: center;">
+    <main>
+
+        <div style="text-align: center; font-family: consolas; font-weight: bold; font-size: 50px; border-bottom: 5px solid orange;">Registration</div>
+        <br>
+        <form>
+            <label for="name">Full Name: </label>
+            <input type="text" id="name" placeholder="your name" required>
+            <br><br>
+            <label for="school">School: </label>
+            <input type="text" id="school" placeholder="school" required>
+            <br><br>
+            <label for="phone">Phone Number: </label>
+            <input type="text" id="phone" placeholder="xx-xxx-xxxx" required>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="text" id="email" placeholder="abc@mail.com" required>
+            <br><br>
+            <div id="topic" style="text-align: center;">Intersted Topic </div> <br>
+            <label for="math" style="margin-right: 23px ;"> Mathematics</label>
+            <input type="radio" id="math" value="maths" name="subject"><br>
+            <label for="econs" style="margin-right: 42px ;">Economics</label>
+            <input type="radio" id="econs" value="econs" name="subject"><br>
+            <label for="coding" style="margin-right: 12px ;">Programming</label>
+            <input type="radio" id="coding" value="coding" name="subject">
+            <br><br>
+
+            <div style="display: flex; justify-content: center;">
+            <div>
+            <label style="text-align: center; margin: 0px; padding:0px">Comment: </label><br>
+            <textarea cols="30" rows="10">Enter Your Comment...</textarea>
+            <br>
+            </div>
+            </div>
+
+            <div id="foot">
+            <input class="end" id="reset"  type="reset">
+            <input class="end" type="submit">
+            </div>
+        </form>
+
+    </main>
+    <script src="./Ex3.js"></script>
+</body>
+</html>
