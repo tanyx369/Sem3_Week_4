@@ -1,0 +1,252 @@
+
+/*
+thead th:first-child{
+    background-color: white;
+    padding-left: 90px;
+}
+*/
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+thead th{
+    font-size: 19px;
+    background-color: lightblue;
+}
+
+table{
+    width: 7000px;
+    background-color: black;
+}
+
+
+tbody tr td{
+    background-color: gray;
+    color: black;
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+}
+
+tbody tr{
+    width: 200px;
+    height: 100px;
+}
+
+#Maths1, #Maths2{
+    position: relative;
+    background-color: crimson;
+}
+
+#Maths1 p1, #Maths2 p1{
+    position: absolute;
+    top: -25px;
+    left: 50px;
+    text-align: center;
+}
+
+#Maths1 p2, #Maths2 p2{
+    font-size: 20px;
+    position: absolute;
+    top:  20px;
+    left: 10px;
+    text-align: center;
+}
+
+#Maths1 p3, #Maths2 p3{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    text-align: center;
+}
+
+#Maths1 p4{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    text-align: center;
+}
+
+#Maths2 p4{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    text-align: center;
+}
+
+#Econs1{
+    position: relative;
+}
+
+#Econs1 p1{
+    position: absolute;
+    top: -25px;
+    left: 90px;
+    text-align: center;
+}
+
+#Econs1 p2{
+    font-size: 20px;
+    position: absolute;
+    top:  20px;
+    left: 10px;
+    text-align: center;
+}
+
+#Econs1 p3{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    text-align: center;
+}
+
+#Econs1 p4{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    text-align: center;
+}
+
+#Econs2{
+    position: relative;
+}
+
+#Econs2 p1{
+    position: absolute;
+    top: -25px;
+    left: 90px;
+    text-align: center;
+}
+
+#Econs2 p2{
+    font-size: 20px;
+    position: absolute;
+    top:  20px;
+    left: 10px;
+    text-align: center;
+}
+
+#Econs2 p3{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    text-align: center;
+}
+
+#Econs2 p4{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    text-align: center;
+}
+
+
+
+
+
+#Coding, #Coding2{
+    position: relative;
+}
+
+#Coding p1{
+    position: absolute;
+    font-size: 25px;
+    top: -25px;
+    left: 26px;
+    text-align: center;
+}
+
+#Coding2 p1{
+    position: absolute;
+    font-size: 25px;
+    top: -25px;
+    left: 1px;
+    text-align: center;
+}
+
+#Coding p2, #Coding2 p2{
+    font-size: 20px;
+    position: absolute;
+    top:  20px;
+    left: 10px;
+    text-align: center;
+}
+
+#Coding p3, #Coding2 p3{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    text-align: center;
+}
+
+#Coding2 p3{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    text-align: center;
+}
+
+#Coding p4{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    text-align: center;
+}
+
+#Coding2 p4{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    text-align: center;
+}
+
+
+
+#Eng{
+    position: relative;
+}
+
+#Eng p1{
+    position: absolute;
+    font-size: 25px;
+    top: -25px;
+    left: 80px;
+    text-align: center;
+}
+
+#Eng p2{
+    font-size: 20px;
+    position: absolute;
+    top:  20px;
+    left: 10px;
+    text-align: center;
+}
+
+#Eng p3{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    text-align: center;
+}
+
+#Eng p4{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    text-align: center;
+}

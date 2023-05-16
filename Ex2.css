@@ -1,0 +1,25 @@
+table{
+    width: 1000px;
+    table-layout: fixed;
+    background-color: black;
+    transform: scale(1.5,1.5);
+}
+
+th{
+    background-color: gray;
+    color: white
+}
+
+td{
+    text-align: center;
+    font-weight: bold;
+    background-color: lightcyan;
+}
+
+#recover{
+   background-color: lightgreen;
+}
+
+#dth{
+    background-color: crimson;
+}
