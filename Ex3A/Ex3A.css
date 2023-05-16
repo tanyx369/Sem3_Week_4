@@ -1,0 +1,183 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#div1{
+    position: absolute;
+    left: 70px;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px
+}
+
+main{
+    position: relative;
+    /* background-color: rgb(130,200,10,0.5); */
+    background-color: rgb(211,211,211, 0.5);
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 30%;
+    height: 900px;
+    z-index: 1;
+}
+
+#frontLine{
+    background-color: black;
+    width: 180px;
+    height: 5px;
+    position: absolute;
+    top: 470px;
+}
+
+#lineBreak{
+    color: rgba(4, 85, 133);
+    position: absolute;
+    top: 420px;
+    left: 210px;
+    font-size: 50px;
+}
+
+#endLine{
+    background-color: black;
+    width: 180px;
+    height: 5px;
+    position: absolute;
+    top: 470px;
+    left: 270px;
+}
+
+h1{
+    text-shadow: -5px -5px 3px orange ;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    margin-bottom: 10px;
+    /*text-underline-offset: 0.5em;*/
+}
+
+label{
+    font-family: "Arial";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input{
+    width: 300px;
+    height: 36px;
+    border: 5px solid lightblue;
+    border-radius: 8px;
+}
+
+.input:focus{
+    border: 5px solid blue;
+}
+
+[name="password"]{
+    margin-bottom: 10px;
+}
+
+#rem{
+    color: rgba(219, 217, 213, 0.356);
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+#forgot{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+button{
+    width: 200px;
+    border-radius: 5px ;
+    background-color: lightseagreen;
+    margin-left: 58px;
+    transform: scale(1.5,1.5);
+}
+
+#login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#div2{
+    position: absolute;
+    top: 530px;
+    width: 100%;
+    height: 300px;
+}
+
+#div2>p{
+    font-family:"Bebas Neue";
+    transform: scale(1.25,1.25);
+    text-align: center;
+}
+
+#twitter{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    /*background-color: rgb(51, 120, 420);*/
+    background: linear-gradient(to right, white, rgb(51, 120, 420)) 
+}
+
+#google, #facebook{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+}
+
+#google{
+    background: linear-gradient(to right, white, crimson);
+}
+
+#facebook{
+    background: linear-gradient(to right, white, blue);
+}
+
+#div3{
+    position: absolute;
+    top: 660px;
+    left: 110px;
+   
+}
+
+#div3>p{
+    font-family: "Bebas Neue";
+    margin-left: 25px;
+    transform: scale(1.5,1.5)
+}
+
+#div3>button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: -50px;
+}
+
+#div3>p>a{
+    text-decoration: none;
+    color: red;
+}

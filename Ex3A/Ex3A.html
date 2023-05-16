@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Ex3A.css">
+    <script src="https://kit.fontawesome.com/6144334413.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="./videoplayback.mp4" type="video/mp4">
+    </video>
+
+    <img src="./download__2_-removebg-preview.png" alt="Image for logo" title="Hilton Hotel & Resort">
+    <main>
+            <h1>Login</h1>
+            <div id="div1">
+                <label>Username: </label><br>
+                <input type="text" name="username" required class="input" id="userName"><br><br>
+                <label>Password: </label><br>
+                <input type="text" name="password" required class="input"><br>
+                <input type="checkbox" name="remembered" id="remembered">
+                <label for="remembered" id="rem">Remember Me</label> 
+                <!-- <label for="id">  label for this element with this "id"-->
+                <a href="D:\JavaScript workplace\Uni project\Week 4\Ex1.html" id="forgot">Forgot Password</a><br><br><br>
+
+                <button id="login">Log in</button>
+            </div>
+
+           
+            <hr id="frontLine"><h1 id="lineBreak">OR</h1><hr id="endLine">
+
+            <div id="div2">
+                <p><big style="font-size: 30px; font-weight: bold;">Login</big><br>With your social media account</p>
+
+                <div style="display: flex; justify-content: center; align-content: space-evenly; gap: 1rem;">
+
+                <a href="https://twitter.com" style="text-decoration: none;">
+                <div id="twitter">
+                    <i class="fa-brands fa-twitter" style="color: #3378f0;"></i>
+                    &nbsp;&nbsp;Twitter
+                </div>
+                </a>
+                
+                <a href="https://google.com" style="text-decoration: none;">
+                <div id="google">
+                    <i class="fa-brands fa-google" style="color: #ff0000;"></i>
+                    &nbsp;&nbsp;&nbsp;Google
+                </div>
+                </a>
+
+                <a href="https://facebook.com" style="text-decoration: none;">
+                <div id="facebook">
+                    <i class="fa-brands fa-facebook" style="color: #005eff;"></i>
+                    &nbsp;Facebook
+                </div>
+                </a>
+                </div>
+
+            </div>
+
+            <div id="div3">
+                <p>Don't have a account ? <a href="/Uni project/Week 4/Ex1.html">Register Now !</a></p>
+                <button>REGISTER</button>
+            </div>
+      
+    </main>
+    
+    <script src="./Ex3A.js"></script>
+</body>
+</html>
